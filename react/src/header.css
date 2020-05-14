@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css?family=Sigmar+One&display=swap");
+header {
+  background-color: red;
+  padding: 10px;
+  text-align: center;
+  font-family: "Sigmar One", cursive;
+  background-image: linear-gradient(
+    to bottom,
+    #e6e4fd,
+    #c4bbff,
+    #a591ff,
+    #8864ff,
+    #6d2bfc
+  );
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th,
+td {
+  text-align: left;
+  padding: 8px;
+}

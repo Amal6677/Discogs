@@ -1,0 +1,13 @@
+GET http://localhost:8000/tracks HTTP/1.1
+
+###
+DELETE http://localhost:8000/tracks/4 HTTP/1.1
+
+
+###
+POST http://localhost:8000/tracks HTTP/1.1
+Content-Type: application/x-www-form-urlencoded
+
+playlist_id=4&title=sdsddsd&uri=wewrererere&masterId=2
+
+
